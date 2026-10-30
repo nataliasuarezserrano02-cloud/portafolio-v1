@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi portafolio</title>
+</head>
+
+<body>
+
+<a href="#contenido">Saltar al contenido</a>
+
+<header>
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="cv.html">Mi CV</a></li>
+            <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="contenido">
+
+    <h1>Contacto</h1>
+
+    <p>
+        Si quieres ponerte en contacto conmigo,
+        puedes completar el siguiente formulario.
+    </p>
+
+    <section>
+        <h2>Formulario de contacto</h2>
+
+        <form onsubmit="return false;">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           required>
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tu mensaje</legend>
+
+                <p>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text"
+                           id="asunto"
+                           name="asunto"
+                           required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"
+                              name="mensaje"
+                              rows="5"
+                              cols="40"
+                              required></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="checkbox"
+                       id="privacidad"
+                       name="privacidad"
+                       required>
+                <label for="privacidad">
+                    He leído la información de privacidad.
+                </label>
+            </p>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Otras formas de contacto</h2>
+
+        <p>
+            Correo electrónico:
+            <a href="mailto:nat@gmail.com">
+                Enviar un correo
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/nataliasuarezserrano02-cloud"
+               target="_blank"
+               rel="noopener noreferrer">
+                Mi perfil de GitHub
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Portafolio personal - 2026</p>
+</footer>
+
+</body>
+</html>
