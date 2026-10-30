@@ -42,3 +42,10 @@ Natalia Suarez
 ## Versión
 
 v1 - Primera versión del portafolio.
+
+## Página web publicada
+
+Puedes visitar mi portafolio en:
+
+https://nataliasuarezserrano02-cloud.github.io/portafolio-v1/
+
